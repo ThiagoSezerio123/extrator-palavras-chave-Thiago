@@ -1,0 +1,1 @@
+const botaoMotraPalavras = document.querySelector("#botao")
