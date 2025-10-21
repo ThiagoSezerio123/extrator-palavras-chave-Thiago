@@ -1,7 +1,7 @@
 const botaoMostraPalavras = document.querySelector("#botao-palavrachave");
 
-botaoMostraPalavras.addEventListener("click", mostraPalavrasChave)
+botaoMostraPalavras.addEventListener("click", mostraPalavraschaves );
 
-function mostraPalavraschaves(){
+function mostraPalavraschaves() {
     alert("Fui clicado!");
 }
