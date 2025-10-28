@@ -13,7 +13,14 @@ function mostraPalavrasChave() {
 function processaTexto(texto) {
     let palavras = texto.split(/\P{L}+/u);
 
-    let frequencias = {};
+    const frequencias = contaFrequencias(palavras);
+
+    
+}
+
+function contaFrequencias(palavras){
+
+let frequencias = {};
 
     for (let i of palavras) {
         frequencias[i] = 0;
@@ -27,5 +34,9 @@ function processaTexto(texto) {
     }
 
     return palavras;
+
+
+
+
 
 }
