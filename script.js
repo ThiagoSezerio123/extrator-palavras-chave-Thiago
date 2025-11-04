@@ -51,3 +51,8 @@ function contaFrequencias(palavras) {
 
 
 }
+
+function tiraPalavrasRuins(palavras){
+    const PALAVRAS_RUINS = new Set(["para", "nós", "das", "como", "era", "o", "a", "as", "os"]);
+    
+}
